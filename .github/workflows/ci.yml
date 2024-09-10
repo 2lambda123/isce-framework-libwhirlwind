@@ -54,7 +54,7 @@ jobs:
           compiler: ${{ matrix.compiler }}
       - uses: lukka/get-cmake@v3.30.3
       - uses: lukka/run-vcpkg@v11.5
-      - uses: lukka/run-cmake@v10.7
+      - uses: lukka/run-cmake@v10.8
         with:
           workflowPreset: ${{ matrix.preset }}
 
@@ -90,7 +90,7 @@ jobs:
           xcode-version: ${{ matrix.xcode }}
       - uses: lukka/get-cmake@v3.30.3
       - uses: lukka/run-vcpkg@v11.5
-      - uses: lukka/run-cmake@v10.7
+      - uses: lukka/run-cmake@v10.8
         with:
           workflowPreset: ${{ matrix.preset }}
 
@@ -117,7 +117,7 @@ jobs:
           compiler: ${{ matrix.compiler }}
       - uses: lukka/get-cmake@v3.30.3
       - uses: lukka/run-vcpkg@v11.5
-      - uses: lukka/run-cmake@v10.7
+      - uses: lukka/run-cmake@v10.8
         with:
           workflowPreset: ${{ matrix.preset }}
 
@@ -134,6 +134,6 @@ jobs:
           clangtidy: "18"
       - uses: lukka/get-cmake@v3.30.3
       - uses: lukka/run-vcpkg@v11.5
-      - uses: lukka/run-cmake@v10.7
+      - uses: lukka/run-cmake@v10.8
         with:
           workflowPreset: clang-tidy

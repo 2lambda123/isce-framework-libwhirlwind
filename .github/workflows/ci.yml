@@ -45,7 +45,7 @@ jobs:
     name: ${{ matrix.runner }} • ${{ matrix.compiler }} • ${{ matrix.preset }}
     runs-on: ${{ matrix.runner }}
     steps:
-      - uses: actions/checkout@v4.2.1
+      - uses: actions/checkout@v4.2.2
         with:
           fetch-depth: 0
           submodules: true
@@ -81,7 +81,7 @@ jobs:
     name: ${{ matrix.runner }} • xcode-${{ matrix.xcode }} • ${{ matrix.preset }}
     runs-on: ${{ matrix.runner }}
     steps:
-      - uses: actions/checkout@v4.2.1
+      - uses: actions/checkout@v4.2.2
         with:
           fetch-depth: 0
           submodules: true
@@ -108,7 +108,7 @@ jobs:
     name: ${{ matrix.runner }} • ${{ matrix.compiler }} • ${{ matrix.preset }}
     runs-on: ${{ matrix.runner }}
     steps:
-      - uses: actions/checkout@v4.2.1
+      - uses: actions/checkout@v4.2.2
         with:
           fetch-depth: 0
           submodules: true
@@ -124,7 +124,7 @@ jobs:
   clang-tidy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4.2.1
+      - uses: actions/checkout@v4.2.2
         with:
           fetch-depth: 0
           submodules: true

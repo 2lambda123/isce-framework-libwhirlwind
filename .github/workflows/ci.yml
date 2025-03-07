@@ -49,7 +49,7 @@ jobs:
         with:
           fetch-depth: 0
           submodules: true
-      - uses: aminya/setup-cpp@v1.1.0
+      - uses: aminya/setup-cpp@v1.1.1
         with:
           compiler: ${{ matrix.compiler }}
       - uses: lukka/get-cmake@v3.31.6
@@ -112,7 +112,7 @@ jobs:
         with:
           fetch-depth: 0
           submodules: true
-      - uses: aminya/setup-cpp@v1.1.0
+      - uses: aminya/setup-cpp@v1.1.1
         with:
           compiler: ${{ matrix.compiler }}
       - uses: lukka/get-cmake@v3.31.6
@@ -128,7 +128,7 @@ jobs:
         with:
           fetch-depth: 0
           submodules: true
-      - uses: aminya/setup-cpp@v1.1.0
+      - uses: aminya/setup-cpp@v1.1.1
         with:
           compiler: llvm-18
           clangtidy: "18"
